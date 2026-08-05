@@ -1853,10 +1853,10 @@ function buildDataAnalysisRows() {
     {dim:'宏观面',sub:'粗钢平控政策',w:'1%',val:'H1产量-2.89%',date:'2026-H1',trend:'→',dir:'🔴利空',note:'全年总量控制，压制铁矿石需求预期'},
     {dim:'宏观面',sub:'环保限产政策',w:'1%',val:'节能降碳三年行动',date:'6月',trend:'→',dir:'⚪中性',note:'以绿色升级为导向，未强制限产'},
     {dim:'技术面',sub:'MA60均线',w:'3%',val:'768 (价741<MA60)',date:'2026-07-28',trend:'↓',dir:'🔴利空',note:'价格741低于MA60(768)，中期空头趋势'},
-    {dim:'技术面',sub:'MACD',w:'2%',val:'DIF=-3.27 DEA=-3.12',date:'2026-07-28',trend:'↓',dir:'🔴利空',note:'DIF<DEA空头排列，绿柱-0.31'},
+    {dim:'技术面',sub:'MACD',w:'2%',val:'DIF=-9.02 DEA=-0.92',date:'2026-07-28',trend:'↓',dir:'🔴利空',note:'DIF<DEA空头排列，绿Bar=-16.2'},
     {dim:'技术面',sub:'布林带',w:'1%',val:'下轨728 上轨765',date:'2026-07-28',trend:'↓',dir:'🔴利空',note:'价741接近下轨(728)，处于弱势通道'},
     {dim:'技术面',sub:'RSI',w:'2%',val:'43.2',date:'2026-07-28',trend:'↓',dir:'⚪中性',note:'RSI中性偏弱(30-70区间)，未到超卖'},
-    {dim:'技术面',sub:'KDJ',w:'1.5%',val:'K=20.3 D=35.6',date:'2026-07-28',trend:'↓',dir:'🔴利空',note:'K<D死叉，K值20.3接近超卖区'},
+    {dim:'技术面',sub:'KDJ',w:'1.5%',val:'K=11.48 D=11.48',date:'2026-07-28',trend:'↓',dir:'🔴利空',note:'K<D死叉，K值20.3接近超卖区'},
     {dim:'技术面',sub:'成交量',w:'1%',val:'246,372手',date:'2026-07-28',trend:'→',dir:'⚪中性',note:'20日均量30.5万手，比值0.81，正常水平'},
     {dim:'技术面',sub:'前高/前低',w:'2%',val:'前高822 前低733',date:'近60日',trend:'↓',dir:'🔴利空',note:'距前低733仅8元，若跌破将打开下行空间'},
     {dim:'技术面',sub:'整数关口',w:'1.5%',val:'741<750关口',date:'2026-07-28',trend:'↓',dir:'🔴利空',note:'跌破750心理关口，下方支撑偏弱'},
@@ -2808,11 +2808,11 @@ function renderAluminumFrameworkContent() {
       <div class="dim-section-body">
         <p class="dim-intro">数据来源：<span class="source-tag">上期所</span> Wind EDB(M0066356)，Python自主计算。价格突破布林上轨(23,531)，MACD金叉动能强劲。</p>
         <table class="indicator-table"><tr><th>指标</th><th>计算值</th><th>风险权重</th><th>状态</th><th>研判</th></tr>
-          <tr><td><b>MA60均线</b></td><td>MA60=23,465 vs 价23,625</td><td class="weight-cell">3%</td><td style="color:#27ae60;">价>MA60</td><td>🟢利多 — 中期多头</td></tr>
-          <tr><td><b>MACD(12,26,9)</b></td><td>DIF=-13.5, DEA=-99.0, Bar=+171.0</td><td class="weight-cell">2.5%</td><td style="color:#27ae60;">DIF>DEA金叉</td><td>🟢利多 — 红柱大幅放大</td></tr>
+          <tr><td><b>MA60均线</b></td><td>MA60=23715.67 vs 价23,625</td><td class="weight-cell">3%</td><td style="color:#27ae60;">价>MA60</td><td>🟢利多 — 中期多头</td></tr>
+          <tr><td><b>MACD(12,26,9)</b></td><td>DIF=228.41, DEA=68.54, Bar=+171.0</td><td class="weight-cell">2.5%</td><td style="color:#27ae60;">DIF>DEA金叉</td><td>🟢利多 — 红柱大幅放大</td></tr>
           <tr><td><b>布林带(20,2)</b></td><td>上23,531/中23,157/下22,783</td><td class="weight-cell">2%</td><td style="color:#27ae60;">突破上轨</td><td>🟢利多 — 强势突破</td></tr>
           <tr><td><b>RSI(14)</b></td><td>58.2</td><td class="weight-cell">2%</td><td style="color:#27ae60;">偏强</td><td>🟢利多 — 动量向上</td></tr>
-          <tr><td><b>KDJ(9,3,3)</b></td><td>K=84.3, D=74.7</td><td class="weight-cell">—</td><td style="color:#27ae60;">KD金叉</td><td>🟢利多 — 短线强势</td></tr>
+          <tr><td><b>KDJ(9,3,3)</b></td><td>K=92.95, D=92.95</td><td class="weight-cell">—</td><td style="color:#27ae60;">KD金叉</td><td>🟢利多 — 短线强势</td></tr>
           <tr><td><b>前高/前低(60日)</b></td><td>前高24,825/前低22,370</td><td class="weight-cell">2.5%</td><td style="color:#f39c12;">距前高1200点</td><td>24,825为压力位</td></tr>
           <tr><td><b>整数关口</b></td><td>23,625>23,000</td><td class="weight-cell">1.5%</td><td style="color:#27ae60;">站稳23,000</td><td>🟢利多</td></tr>
         </table>
@@ -2898,7 +2898,7 @@ function renderAluminumFrameworkContent() {
         <tr style="background:#ebf5fb;"><td style="text-align:left;">运行产能接近上限</td><td>7%</td><td><b>~4,500万吨</b></td><td>→</td><td style="color:#27ae60;font-weight:700;">🟢利多</td><td style="text-align:left;font-size:12px;">产能天花板→供给刚性</td></tr>
         <tr style="background:#ebf5fb;"><td style="text-align:left;">新能源车产量</td><td>5%</td><td><b>持续增长</b></td><td>↑</td><td style="color:#27ae60;font-weight:700;">🟢利多</td><td style="text-align:left;font-size:12px;">单车用铝200kg，增量明确</td></tr>
         <tr style="background:#ebf5fb;"><td style="text-align:left;">社会库存去化</td><td>6%</td><td><b>约100万吨</b></td><td>↓</td><td style="color:#27ae60;font-weight:700;">🟢利多</td><td style="text-align:left;font-size:12px;">中性偏低，去库中</td></tr>
-        <tr style="background:#fef9e7;"><td style="text-align:left;">MACD金叉</td><td>2.5%</td><td><b>DIF=-13.5 DEA=-99 Bar=+171</b></td><td>↑</td><td style="color:#27ae60;font-weight:700;">🟢利多</td><td style="text-align:left;font-size:12px;">DIF>DEA金叉，红柱放大</td></tr>
+        <tr style="background:#fef9e7;"><td style="text-align:left;">MACD金叉</td><td>2.5%</td><td><b>DIF=228.41 DEA=68.54 Bar=+171</b></td><td>↑</td><td style="color:#27ae60;font-weight:700;">🟢利多</td><td style="text-align:left;font-size:12px;">DIF>DEA金叉，红柱放大</td></tr>
         <tr style="background:#fef9e7;"><td style="text-align:left;">布林带突破</td><td>2%</td><td><b>价23,625>上轨23,531</b></td><td>↑</td><td style="color:#27ae60;font-weight:700;">🟢利多</td><td style="text-align:left;font-size:12px;">强势突破上轨</td></tr>
         <tr style="background:#fef9e7;"><td style="text-align:left;">MA60均线</td><td>3%</td><td><b>23,625 > MA60(23,465)</b></td><td>↑</td><td style="color:#27ae60;font-weight:700;">🟢利多</td><td style="text-align:left;font-size:12px;">中期多头排列</td></tr>
         <tr style="background:#fdedec;"><td style="text-align:left;">云南丰水期</td><td>5%</td><td><b>5-10月水电充裕</b></td><td>→</td><td style="color:#c0392b;font-weight:700;">🔴利空</td><td style="text-align:left;font-size:12px;">产能释放→短期供给增</td></tr>
