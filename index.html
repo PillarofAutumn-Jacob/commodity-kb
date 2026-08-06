@@ -934,13 +934,7 @@ function renderIronOreDetail() {
         <div style="font-size:26px;font-weight:900;letter-spacing:3px;margin-bottom:4px;">总体判断：偏空（超卖反弹酝酿中）</div>
         <div style="font-size:13px;opacity:0.9;line-height:1.6;">价格706已跌破关键支撑733，逼近布林下轨698.57。RSI=21.08自极度超卖（昨日14.69）反弹但仍偏弱，KDJ-K=23.68脱离极端超卖区。MACD死叉加深（DIF=-9.35, DEA=-2.23），空头趋势未改但动能Bar收敛。短期可能超跌反弹至738-740（MA20），破位698则下看692.5（前低）。</div>
       </div>
-      <div style="flex-shrink:0;font-size:11px;opacity:0.7;text-align:right;">数据截止<br>2026-08-05<br>来源: 新浪财经</div></div>
-
-    <!-- Panel: 数据图表 -->
-    <div class="content-tab-panel" id="panel-charts">
-      ${renderIronOreCharts()}
-    </div>
-
+      <div style="flex-shrink:0;font-size:11px;opacity:0.7;text-align:right;">数据截止<br>2026-08-05<br>来源: 新浪财经</div>
     </div>
 
     <!-- Framework Overview -->
@@ -1035,8 +1029,14 @@ function renderIronOreDetail() {
     ${renderPathway()}
     ${renderFeatures()}
     ${renderScoring()}
+    </div>
+
+    <!-- Panel: 数据图表 -->
+    <div class="content-tab-panel" id="panel-charts">
+      ${renderIronOreCharts()}
+    </div>
   `;
-  
+
   // Expand all sections by default
   document.querySelectorAll('.dim-section').forEach(s => s.classList.add('expanded'));
 }
