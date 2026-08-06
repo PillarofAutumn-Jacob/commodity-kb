@@ -930,8 +930,8 @@ function renderIronOreDetail() {
     <div style="background:linear-gradient(135deg,#b03a2e,#c0392b);color:#fff;border-radius:10px;padding:20px 28px;margin-bottom:24px;display:flex;align-items:center;gap:24px;box-shadow:0 4px 16px rgba(192,57,43,0.3);">
       <div style="flex-shrink:0;width:72px;height:72px;border-radius:50%;background:rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;font-size:32px;border:3px solid rgba(255,255,255,0.4);">🔴</div>
       <div style="flex:1;">
-        <div style="font-size:26px;font-weight:900;letter-spacing:3px;margin-bottom:4px;">总体判断：偏空</div>
-        <div style="font-size:13px;opacity:0.9;line-height:1.6;">五维中基本面、宏观面、技术面、资金面均指向利空，情绪面中性偏空。价格706.0低于MA60(758.03)、MACD死叉、Contango结构。下方关键支撑733元，跌破看700-710元。</div>
+        <div style="font-size:26px;font-weight:900;letter-spacing:3px;margin-bottom:4px;">总体判断：偏空（超卖反弹酝酿中）</div>
+        <div style="font-size:13px;opacity:0.9;line-height:1.6;">价格706已跌破关键支撑733，逼近布林下轨698.57。RSI=21.08自极度超卖（昨日14.69）反弹但仍偏弱，KDJ-K=23.68脱离极端超卖区。MACD死叉加深（DIF=-9.35, DEA=-2.23），空头趋势未改但动能Bar收敛。短期可能超跌反弹至738-740（MA20），破位698则下看692.5（前低）。</div>
       </div>
       <div style="flex-shrink:0;font-size:11px;opacity:0.7;text-align:right;">数据截止<br>2026-08-05<br>来源: 新浪财经</div>
     </div>
@@ -1832,8 +1832,8 @@ function renderDataAnalysis() {
       <div style="margin-top:16px;padding:16px;background:rgba(255,255,255,0.08);border-radius:6px;font-size:14px;line-height:1.8;">
         <div style="font-weight:700;color:#f39c12;margin-bottom:8px;">🎯 操作建议</div>
         <div style="color:rgba(255,255,255,0.9);">
-          <b>总体偏空思路。</b>五维中三个维度明确指向利空，仅有宏观面的制造业和部分需求指标提供弱支撑。铁矿石价格自4月高点822元/吨已跌至706.0元，跌幅约10%，当前处于60日最低区间。<b>前低733元是关键支撑位</b>——若跌破将打开下行空间，目标看700-710元（接近现货709元）；若在此获得支撑，短期可能反弹至750-760区间（MA60位置768构成压力）。<br><br>
-          <b>关键信号待跟踪：</b>①7月PMI数据（若回落至50以下将强化利空）；②粗钢平控政策下半年执行力度；③港口库存能否持续去化至1.5亿吨以下（当前16,328万吨）；④美联储8月议息会议态度。
+          <b>总体偏空，但超卖后关注反弹。</b>价格706已跌破前低733支撑位，距布林下轨698.57仅一步之遥。自4月高点822元跌至706（跌幅14%），RSI从极端超卖14.69回升至21.08，KDJ底部金叉雏形初现。下方关键支撑698.57（布林下轨）和692.5（前低），若守住有望反弹至738-740（MA20）；若破位则看680-690区间。上方MA60=758构成中期压力。<br><br>
+          <b>关键信号待跟踪：</b>①RSI能否站上30确认反弹；②铁矿港口库存去化速度；③粗钢平控政策下半年执行力度；④成材端需求（螺纹钢表需）是否企稳。
         </div>
       </div>
     </div>
@@ -1873,7 +1873,7 @@ function buildDataAnalysisRows() {
     {dim:'技术面',sub:'RSI',w:'2%',val:'21.08',date:'2026-07-28',trend:'↓',dir:'⚪中性',note:'RSI中性偏弱(30-70区间)，未到超卖'},
     {dim:'技术面',sub:'KDJ',w:'1.5%',val:'K=23.68 D=11.48',date:'2026-07-28',trend:'↓',dir:'🔴利空',note:'K<D死叉，K值20.3接近超卖区'},
     {dim:'技术面',sub:'成交量',w:'1%',val:'246,372手',date:'2026-07-28',trend:'→',dir:'⚪中性',note:'20日均量30.5万手，比值0.81，正常水平'},
-    {dim:'技术面',sub:'前高/前低',w:'2%',val:'前高822 前低733',date:'近60日',trend:'↓',dir:'🔴利空',note:'距前低733仅8元，若跌破将打开下行空间'},
+    {dim:'技术面',sub:'前高/前低',w:'2%',val:'前高822 前低692.5',date:'近120日',trend:'↓',dir:'🔴利空',note:'已跌破733，距前低692.5仅14元'},
     {dim:'技术面',sub:'整数关口',w:'1.5%',val:'706<750关口',date:'2026-07-28',trend:'↓',dir:'🔴利空',note:'跌破750心理关口，下方支撑偏弱'},
     {dim:'技术面',sub:'跳空缺口',w:'1%',val:'近5日跳空低开10点',date:'近日',trend:'↓',dir:'🔴利空',note:'跳空低开后未回补，空方占优'},
     {dim:'资金面',sub:'前20会员净多/净空',w:'4%',val:'—',date:'—',trend:'—',dir:'—',note:'期货持仓数据不在Wind MCP覆盖范围'},
